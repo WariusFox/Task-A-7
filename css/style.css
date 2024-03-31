@@ -1,0 +1,107 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 16px; /* по умолчанию */
+}
+body {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+/* ------------------------------ */
+
+.container {
+  max-width: 1170px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#new-todo,
+#add-btn {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#new-todo {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+#todo-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#todo-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 54.65%;
+  margin: 0 auto;
+}
+
+#todo-list li.completed {
+  background-color: #ccc;
+}
+
+.delete-btn {
+  float: right;
+  margin-left: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: red;
+}
